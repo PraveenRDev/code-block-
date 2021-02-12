@@ -15,7 +15,7 @@ const App = () => {
         <div>
             <textarea onChange={e => setInput(e.target.value)} value={input} ></textarea>
             <div>
-                <button onClick={handleSubmit}>Submit</button>
+                <button onClick={handleSubmit}>Change to</button>
             </div>
             <pre>{code}</pre>
         </div>
